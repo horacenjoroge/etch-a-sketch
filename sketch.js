@@ -19,6 +19,14 @@ btn.addEventListener('click', function () {
     }
 });
 
+// JavaScript to create the 16x16 grid dynamically
+const grid = document.querySelector('.container');
+
+for (let i = 0; i < 16 * 16; i++) {
+    const gridCell = document.createElement('div');
+    gridCell.classList.add('grid-cell');
+    gridContainer.appendChild(gridCell);
+}
 
 
 
