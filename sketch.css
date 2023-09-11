@@ -14,9 +14,9 @@
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
-    background-color: #ddd;
+    background-color:grey;
     /* Background color of the cells */
-    border: 1px solid #fff;
+    border: 1px solid white;
     /* Border around each cell */
     box-sizing: border-box;
     /* Include padding and border in cell size */
