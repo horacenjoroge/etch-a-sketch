@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 1px;
+    /* You can adjust the gap between grid cells */
+    width: 400px;
+    /* Adjust the width of the grid container as needed */
+    margin: 0 auto;
+    /* Center the grid container on the page */
+}
+
+/* Styles for the individual grid cells */
+.grid-cell {
+    width: 100%;
+    /* Each cell takes up 100% of its grid column */
+    padding: 0;
+    background-color: #ddd;
+    /* Background color of the cells */
+    border: 1px solid #fff;
+    /* Border around each cell */
+    box-sizing: border-box;
+    /* Include padding and border in cell size */
+}
