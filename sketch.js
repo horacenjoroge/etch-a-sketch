@@ -15,7 +15,7 @@ btn.addEventListener('click', function () {
     } else {
         console.log("Number of squares you want inside the grid: " + numberOfSquares);
 
-        // Here, you can perform further actions with the validated numberOfSquares value.
+        
     }
 });
 
