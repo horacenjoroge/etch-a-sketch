@@ -14,14 +14,15 @@
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
-    background-color:rgb(20, 2, 2);
+    background-color:rgb(160, 11, 11);
     /* Background color of the cells */
-    border: 1px solid white;
+    border: 1px solid rgba(218, 233, 11, 0.911);
     /* Border around each cell */
     box-sizing: border-box;
     /* Include padding and border in cell size */
    transition: background-color 0.2s;
             /* Smooth transition for the background color */
+    height:40px;
 }
 .round {
     border-radius: 50%;
