@@ -14,10 +14,24 @@
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
-    background-color:rgb(230, 30, 30);
+    background-color:rgb(82, 66, 66);
     /* Background color of the cells */
     border: 1px solid white;
     /* Border around each cell */
     box-sizing: border-box;
     /* Include padding and border in cell size */
+}
+.round {
+    border-radius: 50%;
+    width: 100px;
+    /* Adjust the width and height as needed */
+    height: 100px;
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    border: none;
+    cursor: pointer;
 }
