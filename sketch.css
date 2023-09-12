@@ -14,12 +14,14 @@
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
-    background-color:rgb(82, 66, 66);
+    background-color:rgb(207, 30, 30);
     /* Background color of the cells */
     border: 1px solid white;
     /* Border around each cell */
     box-sizing: border-box;
     /* Include padding and border in cell size */
+   transition: background-color 0.2s;
+            /* Smooth transition for the background color */
 }
 .round {
     border-radius: 50%;
@@ -34,4 +36,9 @@
     /* Adjust the font size as needed */
     border: none;
     cursor: pointer;
+}
+/* Hover effect - Change color on hover */
+.grid-cell:hover {
+    background-color: #007bff;
+    /* New background color on hover */
 }
