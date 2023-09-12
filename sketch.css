@@ -14,7 +14,7 @@
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
-    background-color:rgb(207, 30, 30);
+    background-color:rgb(20, 2, 2);
     /* Background color of the cells */
     border: 1px solid white;
     /* Border around each cell */
@@ -39,6 +39,6 @@
 }
 /* Hover effect - Change color on hover */
 .grid-cell:hover {
-    background-color: #007bff;
+    background-color: #ff0000;
     /* New background color on hover */
 }
