@@ -10,7 +10,7 @@
 }
 
 /* Styles for the individual grid cells */
-.grid-cell {
+.cell {
     width: 100%;
     /* Each cell takes up 100% of its grid column */
     padding: 0;
@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 /* Hover effect - Change color on hover */
-.grid-cell:hover {
+.cell:hover {
     background-color: #ff0000;
     /* New background color on hover */
 }
