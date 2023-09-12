@@ -19,14 +19,37 @@ btn.addEventListener('click', function () {
     }
 });
 
-// JavaScript to create the 16x16 grid dynamically
 const grid = document.querySelector('.container');
 
+// Function to change the color of a grid cell when hovered
+function changeColorOnHover(event) {
+    const gridCell = event.target; // Get the grid cell that triggered the event
+    gridCell.style.backgroundColor = 'blue'; // Change the background color
+}
+
+// Function to reset the color of a grid cell when the mouse leaves
+function resetColorOnLeave(event) {
+    const gridCell = event.target; // Get the grid cell that triggered the event
+    gridCell.style.backgroundColor = ''; // Reset the background color
+}
+
+// Create the grid cells and add event listeners
 for (let i = 0; i < 16 * 16; i++) {
     const gridCell = document.createElement('div');
-    gridCell.classList.add('grid-cell');
+    gridCell.classList.add('cell');
     grid.appendChild(gridCell);
+
+    // Add event listeners for hover and mouse leave
+    gridCell.addEventListener('mouseover', changeColorOnHover);
+    gridCell.addEventListener('mouseleave', resetColorOnLeave);
 }
+
+
+
+
+
+
+
 
 
 
